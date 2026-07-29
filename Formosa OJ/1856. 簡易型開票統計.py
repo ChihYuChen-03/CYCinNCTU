@@ -13,3 +13,14 @@ jamie 4
 '''
 
 names = list(input().split())
+# print(names)
+num1 = names.count('john')
+num2 = names.count('johnny')
+num3 = names.count('jackie')
+num4 = names.count('jamie')
+
+result = {'john':num1, 'johnny':num2, 'jackie':num3, 'jamie':num4}
+# print(result)
+
+for i, obj in result.items():
+    print(i, obj)
